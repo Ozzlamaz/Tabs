@@ -21,27 +21,23 @@
   }
 
   h2 {
-    @apply text-2xl sm:text-4xl
+    @apply text-4xl
   }
 
   h3 {
-    @apply text-xl sm:text-3xl
+    @apply text-3xl
   }
   
   h4 {
-    @apply text-lg sm:text-2xl
+    @apply text-2xl
   }
 
   h5 {
-    @apply text-base sm:text-xl
+    @apply text-xl
   }
 
   h6 {
-    @apply text-sm sm:text-lg
-  }
-
-  li {
-    @apply text-xs sm:text-base
+    @apply text-lg
   }
 
   button {
