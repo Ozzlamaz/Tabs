@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    @apply bg-slate-200
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  #root {
+    @apply mx-auto mt-5 sm:mt-20 px-5
+  }
+
+  h1 {
+    @apply text-5xl 
+  }
+
+  h2 {
+    @apply text-2xl sm:text-4xl
+  }
+
+  h3 {
+    @apply text-xl sm:text-3xl
+  }
+  
+  h4 {
+    @apply text-lg sm:text-2xl
+  }
+
+  h5 {
+    @apply text-base sm:text-xl
+  }
+
+  h6 {
+    @apply text-sm sm:text-lg
+  }
+
+  li {
+    @apply text-xs sm:text-base
+  }
+
+  button {
+    @apply px-16 mb-3 border-l-4
+  }
+
+  button:hover {
+    @apply transition-all duration-500 border-green-300 text-green-400
+  }
+}
